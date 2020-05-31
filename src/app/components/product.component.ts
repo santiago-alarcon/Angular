@@ -19,7 +19,7 @@ import {product} from '../product.model';
 export class ProductComponent implements  OnInit, DoCheck, ngOnDestroy{
 @Input() product: product;
 @Output() productClicked: EventEmitter<any> = new EventEmitter();
-
+ today  = new Date();
 constructor(){
     console.log('constructor');
 }
