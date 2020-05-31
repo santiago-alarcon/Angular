@@ -59,7 +59,7 @@ this.items.push('Nuevo item')
 deleteItems(index: number){
   this.items.splice(index,1);
 }
-clickProduct (id: number){
+clickProduct(id: number){
   console.log('product');
   console.log(id);
 }
